@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import './Home.css'
+import '../../assets/stylesheets/application.css';
 import Help1 from '../images/help1.jpg'
 import banner from '../images/art-banner.jpg'
 import Help2 from '../images/help2.jpg'
