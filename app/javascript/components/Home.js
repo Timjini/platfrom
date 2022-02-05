@@ -1,5 +1,4 @@
 import React from "react"
-import Typed from 'react-typed'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
