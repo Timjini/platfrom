@@ -1,5 +1,4 @@
 import React from "react"
-import Typed from 'react-typed'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -17,14 +16,7 @@ function Home () {
         <div className ="header-wraper" style ={ { backgroundImage: `url(${banner})` } }>
         < div className="main-info col-md-6 p-5">
             <h1> Aid Platfrom</h1>
-            <Typed 
-            className='typed-text'
-            strings={['Help','Love','& Donation']}
-            typeSpeed={40}
-            backSpeed={50}
-            loop 
-
-            /><br/>
+            <p> Love, help and aid.</p><br/>
             <Button variant="warning mt-5 p-3" className='action-button'> Start Today</Button>            
         </div>
 
