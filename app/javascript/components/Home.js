@@ -1,10 +1,11 @@
 import React from "react"
+import Typed from 'react-typed'
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import '../../assets/stylesheets/application.css';
+import './Home.css'
 import Help1 from '../images/help1.jpg'
 import banner from '../images/art-banner.jpg'
 import Help2 from '../images/help2.jpg'
@@ -16,7 +17,7 @@ function Home () {
         <div className ="header-wraper" style ={ { backgroundImage: `url(${banner})` } }>
         < div className="main-info col-md-6 p-5">
             <h1> Aid Platfrom</h1>
-            <p> Love, help and aid.</p><br/>
+            <p> Love and Help</p><br/>
             <Button variant="warning mt-5 p-3" className='action-button'> Start Today</Button>            
         </div>
 
