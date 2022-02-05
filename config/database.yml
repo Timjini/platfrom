@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: platform_production
-  username: platform
-  password: <%= ENV['PLATFORM_DATABASE_PASSWORD'] %>
+  username: timjini
+  password: <%= ENV['150150'] %>
