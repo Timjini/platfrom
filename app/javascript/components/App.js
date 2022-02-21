@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Home from './Home'
 import {Routes,Route} from 'react-router-dom'
 import Navbar from './Navbar'
+import Location from './Location'
+
 
 class App extends Component {
     render () {
@@ -10,6 +12,7 @@ class App extends Component {
             <Navbar />
             <Routes>
                 <Route path='/' element={<Home />} />
+                <Route path='/location' element={<Location />} />
             </Routes>
             </>
         )
@@ -17,3 +20,4 @@ class App extends Component {
 }
 
 export default App
+

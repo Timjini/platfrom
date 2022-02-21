@@ -1,0 +1,13 @@
+@API_URL = http://localhost:3000/api/v1
+
+GET {{{API_URL}}/requests/index
+###
+
+
+POST {{API_URL}}/requests/create
+Content-Type: application/json  
+
+{
+    "description": "second request",
+    "location": "Somewhere else"
+}

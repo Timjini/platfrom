@@ -8,6 +8,9 @@ import './Home.css'
 import Help1 from '../images/help1.jpg'
 import banner from '../images/art-banner.jpg'
 import Help2 from '../images/help2.jpg'
+import Requests from './Requests'
+import NewRequest from "./NewRequest"
+import Location from "./Location"
 
 
 function Home () {
@@ -35,7 +38,13 @@ function Home () {
             </Col>
         </Row>
     </Container>
+    <NewRequest />
+    <Requests />
 </section>
+<section>
+    <Location />
+</section>
+
 <section className='section-2'>
 
         <Container>
