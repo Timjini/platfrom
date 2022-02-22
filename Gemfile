@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'rails_12factor', group: :production
 gem 'geocoder', '~> 1.3', '>= 1.3.7'
+gem 'devise'
 
 
 # Use Active Storage variant
