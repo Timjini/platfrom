@@ -17,11 +17,17 @@ export default class Requests extends React.Component {
   
     render() {
       return (
-        <><ul>
-          {this.state.requests
-            .map(request => <li key={request.id}>{request.description}</li>
-            )}
-        </ul><DeleteRequest /></>
+        <>
+        <ul>
+          {
+            this.state.requests
+              .map(request =>
+                <li key={request.id}>{request.description}</li>
+              )
+          }
+        </ul>
+        <DeleteRequest />
+        </>
       )
-    }
+    };
   }
